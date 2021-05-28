@@ -149,6 +149,26 @@
      color: var(--primary-text-color);
 }
 
+.form-message {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.contact-form {
+  vertical-align: baseline;
+}
+.homepage__photo {
+/*  display: flex;
+  width: 100%;
+  max-width: 900px; */
+}
+
+.programming-meme {
+  width: 30px;
+}
 .berlin-illustration {
   width: 100%;
   max-width: 900px;
@@ -190,6 +210,7 @@
          transform: translate(100px, 48px);
     }
 }
+
 /* start grid fallback */
  .grid__item {
      display: inline-block;
