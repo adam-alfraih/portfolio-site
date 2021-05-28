@@ -160,15 +160,15 @@
 .contact-form {
   vertical-align: baseline;
 }
-.homepage__photo {
-/*  display: flex;
-  width: 100%;
-  max-width: 900px; */
-}
 
 .programming-meme {
-  width: 30px;
+  width: 100vh;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
+
 .berlin-illustration {
   width: 100%;
   max-width: 900px;
