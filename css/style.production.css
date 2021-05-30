@@ -131,7 +131,6 @@
 .navigation-list li a {
   color: #697187;
   font-weight: lighter;
-  padding: 0 15px;
 }
 .navigation-list__item--active {
     color: #51cbd0;
