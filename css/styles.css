@@ -246,9 +246,6 @@ label {
      display: inline-block;
      width: 33%;
 }
- .spacer {
-     padding: 30px 0;
-}
 /* end grid fallback */
  @supports (display: grid) {
      .grid {
@@ -311,6 +308,9 @@ label {
          float: none;
          margin: 0;
     }
+}
+.spacer {
+    padding: 30px 0;
 }
  .page-footer {
      background-color: var(--tertiary-color);

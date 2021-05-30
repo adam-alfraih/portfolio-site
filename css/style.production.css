@@ -23,7 +23,7 @@
 }
  body {
      font-family: 'Source Sans Pro', sans-serif;
-     font-weight: 300;
+     font-weight: 200;
      font-size: 16px;
      line-height: 1.6;
      position: relative;
@@ -35,8 +35,6 @@
      margin: 0 auto;
      padding: 30px 20px;
      background-color: #f6f6f6;
-    /* min-height: calc(100vh - 110px - 61px);
-     */
 }
  section {
      margin: 0 auto;
@@ -129,6 +127,7 @@
      display: inline-block;
      margin-left: 15px;
 }
+/* youtube code */
 .navigation-list li a {
   color: #697187;
   font-weight: lighter;
@@ -316,9 +315,6 @@ label {
      display: inline-block;
      width: 33%;
 }
- .spacer {
-     padding: 30px 0;
- }
 /* end grid fallback */
  @supports (display: grid) {
      .grid {
@@ -389,6 +385,9 @@ label {
          margin: 0;
     }
 }
+.spacer {
+    padding: 30px 0;
+}
  .page-footer {
      background-color: #f6f6f6;
      opacity: 90%;
@@ -407,5 +406,3 @@ label {
      bottom: 0;
      width: 100%;
 }
-
-/* test */
