@@ -316,6 +316,9 @@ label {
      display: inline-block;
      width: 33%;
 }
+ .spacer {
+   padding: 30px 0;
+ }
 /* end grid fallback */
  @supports (display: grid) {
      .grid {
